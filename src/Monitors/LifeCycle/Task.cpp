@@ -92,7 +92,7 @@ namespace Monitors
 
       //! Release resources.
       void
-      onResourceRelease(void)ENTERED
+      onResourceRelease(void)
       {
         war("LifeCycle event: Resource Release");
 
